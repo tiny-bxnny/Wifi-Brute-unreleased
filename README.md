@@ -3,7 +3,7 @@ A tool to crack a wifi password with a help of wordlist. This may take long to c
 
 
 
-# Hoe 2 Use
+# How2 Use
 
 1.            git clone https://github.com/Cyber-Dioxide/Wifi-Brute
 2.            cd Wifi-Brute
