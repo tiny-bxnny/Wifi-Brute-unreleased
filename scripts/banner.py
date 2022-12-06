@@ -23,7 +23,7 @@ logo = f"""
   ███    ███   ███    ███ ███    ███     ███       ███    ███ 
 ▄█████████▀    ███    ███ ████████▀     ▄████▀     ██████████ 
                ███    ███                                     
-                          {c.c + "Author: "+c.y+"Saad Khan | Cyber-Dioxide"}                                                                                                                                   
+                          {c.c + "Author: "+c.y+"CPScript"}                                                                                                                                   
 """
 try:
     from colorama import Fore, Style
@@ -32,20 +32,18 @@ except ModuleNotFoundError:
 
 
 def banner():
-    print(c.ran + logo)
-    print(c.ran,"" + "|"+ Style.BRIGHT + Fore.LIGHTCYAN_EX, "- " * 4, " [+] Follow me on Instagram @cyber_dioxide ", "- " * 4 + c.ran + "|")
-    print(c.ran, "\n" + "|"+ Style.BRIGHT + Fore.LIGHTYELLOW_EX, "- " * 4, " [+] Follow me on Instagram @coding_memz ", "- " * 4+c.ran + "|")
-    print(c.ran , "\n"+ "|"+ Style.BRIGHT + Fore.LIGHTRED_EX, "- " * 4, "[+] Github: https://github.com/Cyber-Dioxide/ ", "- " * 3+c.ran + "|")
+    print(c.ran,"\n" + "|"+ Style.BRIGHT + Fore.LIGHTCYAN_EX, "- " * 4, "  [+] About CPScript ", "- " * 4 + c.ran + "|")
+    print(c.ran, "\n" + "|"+ Style.BRIGHT + Fore.LIGHTYELLOW_EX, "- " * 4, " [+] CPS is a coder that works on Networking, Malware, and Hacks ", "- " * 4+c.ran + "|")
+    print(c.ran , "\n"+ "|"+ Style.BRIGHT + Fore.LIGHTRED_EX, "- " * 4, "[+] You can find more here--> https://github.com/CPScript/", "- " * 3+c.ran + "|")
 
     print(c.ran + '-' * 63)
 
 
 def banner2():
     print(c.ran + '-'*63)
-    print(c.ran,"\n" + "|"+ Style.BRIGHT + Fore.LIGHTCYAN_EX, "- " * 4, " [+] Follow me on Instagram @cyber_dioxide ", "- " * 4 + c.ran + "|")
-    print(c.ran, "\n" + "|"+ Style.BRIGHT + Fore.LIGHTYELLOW_EX, "- " * 4, " [+] Follow me on Instagram @coding_memz ", "- " * 4+c.ran + "|")
-    print(c.ran , "\n"+ "|"+ Style.BRIGHT + Fore.LIGHTRED_EX, "- " * 4, "[+] Github: https://github.com/Cyber-Dioxide ", "- " * 3+c.ran + "|")
-
+    print(c.ran,"\n" + "|"+ Style.BRIGHT + Fore.LIGHTCYAN_EX, "- " * 4, "  [+] About CPScript ", "- " * 4 + c.ran + "|")
+    print(c.ran, "\n" + "|"+ Style.BRIGHT + Fore.LIGHTYELLOW_EX, "- " * 4, " [+] CPS is a coder that works on Networking, Malware, and Hacks ", "- " * 4+c.ran + "|")
+    print(c.ran , "\n"+ "|"+ Style.BRIGHT + Fore.LIGHTRED_EX, "- " * 4, "[+] You can find more here--> https://github.com/CPScript/", "- " * 3+c.ran + "|")
 def clear():
     s = platform.platform()
     if "Windows" in s:
