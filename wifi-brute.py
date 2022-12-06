@@ -45,7 +45,7 @@ def rootCHEK():
             print("Root your terminal for better performance")
             os.system("sudo su")
         if "Windows" in platform.platform():
-            print("Iam developed to work on Windows. Dont worry i'll take care of next!")
+            print("I am developed to work on Windows.")
 
         time.sleep(3)
 
@@ -54,7 +54,7 @@ rootCHEK()
 
 clear()
 
-sprint(f"\n\n{r} Note: {c}This tool is only made for educational purpose... -_+")
+sprint(f"\n\n{r} Note: {c}Have FUN -_-")
 sprint(f"\n{g}Preparing...")
 time.sleep(2)
 clear()
@@ -84,8 +84,8 @@ def main():
 
     num = len(scanner)
 
-    print(f"{r}Number of wifi found: {ran}{str(num)}")
-    input(f"{y}\nPress enter to start___")
+    print(f"{r}[!]Number of wifi found: {ran}{str(num)}")
+    input(f"{y}\n[?]Press enter to start>")
           
     for i,x in enumerate(scanner):
         res = test(num-i , inface , x , passwords , ts)
@@ -149,7 +149,7 @@ cont = ""
 while cont not in no:
     main()
 
-    ch = input(ran+"Do you want to continue? (y/n):").lower()
+    ch = input(ran+"[?]Do you want to continue? (y/n):").lower()
 
     if ch in no:
         clear()
