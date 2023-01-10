@@ -149,7 +149,7 @@ cont = ""
 while cont not in no:
     main()
 
-    ch = input(ran+"[?]Do you want to continue? (y/n):").lower()
+    ch = input(ran+"[?]Do you want to continue?(y/n):").lower()
 
     if ch in no:
         clear()
@@ -157,7 +157,3 @@ while cont not in no:
     else:
         clear()
         banner2()
-
-
-
-
