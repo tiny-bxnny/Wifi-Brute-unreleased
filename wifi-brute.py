@@ -54,7 +54,10 @@ rootCHEK()
 
 clear()
 
-sprint(f"\n\n{r} Note: {c}Have FUN -_-")
+sprint(f"\n\n{r} /---WARNING---\ {c} ")
+sprint(f"\n\n{y} Im ment to run in windows <3")
+sprint(f"\n\n{c} Run in Termux")
+sprint(f"\n\n{c} Run as R00T")
 sprint(f"\n{g}Preparing...")
 time.sleep(2)
 clear()
